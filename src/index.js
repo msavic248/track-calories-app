@@ -11,7 +11,7 @@ import Chart from "chart.js/auto";
 
 // TODO: If you plan on hosting this, make sure to change the entire URL below to your own Firebase Firestore database
 const API = new FetchWrapper(
-  "https://firestore.googleapis.com/v1/projects/jsdemo-3f387/databases/(default)/documents/YOURNAMESPACEHERE"
+  "https://firestore.googleapis.com/v1/projects/jsdemo-3f387/databases/(default)/documents/milos123"
 );
 
 const appData = new AppData();
