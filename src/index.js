@@ -6,7 +6,7 @@ import "snackbar/dist/snackbar.min.css";
 import Chart from "chart.js/auto";
 
 const API = new FetchWrapper(
-  "https://track-calories-app-default-rtdb.europe-west1.firebasedatabase.app"
+  "https://track-calories-app-default-rtdb.europe-west1.firebasedatabase.app/data"
 );
 
 const appData = new AppData();
