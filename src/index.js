@@ -24,7 +24,7 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 const API = new FetchWrapper(
-  "https://track-calories-app-default-rtdb.europe-west1.firebasedatabase.app/data"
+  "https://firestore.googleapis.com/v1/projects/track-calories-app-357216"
 );
 
 const appData = new AppData();
